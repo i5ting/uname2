@@ -28,4 +28,4 @@ NAN_MODULE_INIT(InitAll) {
   MyObject::Init(target);
 }
 
-NODE_MODULE(NativeExtension, InitAll)
+NODE_MODULE(uname2, InitAll)

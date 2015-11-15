@@ -1,6 +1,6 @@
 {
   "name": "uname2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "uname info",
   "main": "index.js",
   "scripts": {
