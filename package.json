@@ -1,0 +1,31 @@
+{
+  "name": "uname2",
+  "version": "1.0.0",
+  "description": "uname info",
+  "main": "index.js",
+  "scripts": {
+    "p": "npm publish .",
+    "configure": "node-gyp configure",
+    "build": "node-gyp build",
+    "start":"npm i &&  npm run configure && npm run build",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "nan": "^2.0.5",
+    "mocha": "^2.2.5",
+    "node-gyp": "^1.0.3"
+  },
+  "dependencies": {
+    "bindings": "^1.2.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/i5ting/uname2.git"
+  },
+  "bugs": {
+      "url": "https://github.com/i5ting/uname2/issues"
+  },
+  "homepage": "https://github.com/i5ting/uname2#readme"
+}
